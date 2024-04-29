@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f69f40;
+}
+
+.container {
+    background-color: #1e2d2d;
+    width: min(90%, 500px);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: #f69f40;
+}
+
+.container label {
+    display: block;
+    color: #a0a0a0;
+    margin-bottom: 0.3em;
+}
+
+label[for="text1"] {
+    margin-top: 2em;
+}
+
+input#text1 {
+    margin-bottom: 2em;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1em 0.5em;
+    border-radius: 0.3em;
+    background-color: #354342;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 1.5em auto;
+    background-color: #f69f40;
+    color: #1e2e2d;
+    border: none;
+    outline: none;
+    padding: 1em 2em;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
